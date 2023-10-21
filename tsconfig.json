@@ -15,6 +15,9 @@
       "my-lib": [
         "dist/my-lib/my-lib",
         "dist/my-lib"
+      ],
+      "ngx-intl-tel": [
+        "dist/ngx-intl-tel"
       ]
     },
     "declaration": false,
@@ -25,16 +28,14 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "es2020",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "enableIvy": false
   }
 }
