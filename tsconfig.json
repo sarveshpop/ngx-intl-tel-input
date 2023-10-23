@@ -12,13 +12,8 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "my-lib": [
-        "dist/my-lib/my-lib",
-        "dist/my-lib"
-      ],
-      "ngx-intl-tel": [
-        "dist/ngx-intl-tel"
-      ]
+      "my-lib": ["dist/my-lib/my-lib", "dist/my-lib"],
+      "ngx-intl-tel": ["dist/ngx-intl-tel"]
     },
     "declaration": false,
     "downlevelIteration": true,
@@ -35,7 +30,6 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true,
-    "enableIvy": false
+    "strictTemplates": true
   }
 }
