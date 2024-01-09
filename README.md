@@ -14,10 +14,10 @@ An Angular package for entering and validating international telephone numbers. 
 
 Validation with [google-libphonenumber](https://github.com/ruimarinho/google-libphonenumber)
 
-| ngx-intl-tel-input | Angular        | ngx-bootstrap |
-| ------------------ | -------------- | ------------- |
-| 3.x.x              | 9.x.x - 14.x.x | >= 6.0.0      |
-| 2.x.x              | 8.x.x - 9.1.x  | 5.6.x         |
+| ngx-intl-tel-input | Angular        |
+| ------------------ | -------------- |
+| 3.x.x              | 9.x.x - 16.x.x |
+| 2.x.x              | 8.x.x - 9.1.x  |
 
 ## Installation
 
@@ -27,7 +27,7 @@ Validation with [google-libphonenumber](https://github.com/ruimarinho/google-lib
 
 `$ npm install google-libphonenumber --save`
 
-`$ ng add ngx-bootstrap`
+`$ ng add @ng-bootstrap/ng-bootstrap`
 
 If you do not wish to use Bootstrap's global CSS, we now package the project with only the relevant
 bootstrap styling needed for the dropdown. As such, you can remove the bootstrap styling from `angular.json`.
@@ -54,7 +54,7 @@ to **angular.json** styles array:
 
 ### Install This Library
 
-`$ npm install @khaziingx-intl-tel-input --save`
+`$ npm i @sarveshpop/ngx-intl-tel-input`
 
 ## Usage
 
