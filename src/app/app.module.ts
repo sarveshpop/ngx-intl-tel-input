@@ -8,6 +8,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
 	declarations: [AppComponent],
@@ -16,7 +17,8 @@ import { AppComponent } from './app.component';
 		FormsModule,
 		ReactiveFormsModule,
 		NgxIntlTelInputModule,
-		BrowserAnimationsModule
+		BrowserAnimationsModule,
+  NgbModule
 	],
 	providers: [],
 	bootstrap: [AppComponent],
