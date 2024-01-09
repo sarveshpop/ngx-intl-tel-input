@@ -46,7 +46,7 @@ to **angular.json** styles array:
 ```json
 
 "styles": [
-  "./node_modules/@khazii/intl-tel-input/build/css/intlTelInput.css",
+  "./node_modules/@sarveshpop/intl-tel-input/build/css/intlTelInput.css",
   "src/styles.css"
 ],
 
@@ -84,7 +84,20 @@ Or this:
 
 ```html
 <form #f="ngForm" [formGroup]="phoneForm">
-  <ngx-intl-tel-input [cssClass]="'custom'" [preferredCountries]="[CountryISO.UnitedStates, CountryISO.UnitedKingdom]" [enableAutoCountrySelect]="false" [enablePlaceholder]="true" [searchCountryFlag]="true" [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]" [selectFirstCountry]="false" [selectedCountryISO]="CountryISO.India" [maxLength]="15" [phoneValidation]="true" [inputId]="my-input-id" name="phone" formControlName="phone"></ngx-intl-tel-input>
+  <ngx-intl-tel-input
+    [cssClass]="'custom'"
+    [preferredCountries]="[CountryISO.UnitedStates, CountryISO.UnitedKingdom]"
+    [enableAutoCountrySelect]="false"
+    [enablePlaceholder]="true"
+    [searchCountryFlag]="true"
+    [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]"
+    [selectFirstCountry]="false"
+    [selectedCountryISO]="CountryISO.India"
+    [maxLength]="15"
+    [phoneValidation]="true"
+    [inputId]="my-input-id"
+    name="phone"
+    formControlName="phone"></ngx-intl-tel-input>
 </form>
 ```
 
@@ -121,7 +134,7 @@ Following formats are supported
 ## Library Contributions
 
 - Fork repo.
-- Update `./projects/@khazii/ngx-intl-tel-input`
+- Update `./projects/@sarveshpop/ngx-intl-tel-input`
 - Build / test library.
 - Update `./src/app` with new functionality.
 - Update README.md
